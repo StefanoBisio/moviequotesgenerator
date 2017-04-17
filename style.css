@@ -1,0 +1,55 @@
+body {
+    background-image: url("https://previews.123rf.com/images/anwarsikumbang/anwarsikumbang1307/anwarsikumbang130701208/20962760-background-pattern-media-movie-Stock-Vector.jpg");
+    background-repeat: repeat;
+}
+
+h1 {
+    padding-top: 15px!important;
+}
+
+.container {
+    width: 70%;
+}
+
+@media screen and (max-width: 800px) {
+    h2 {
+        font-size: 16px!important;
+    }
+}
+
+.spaced {
+    margin-top: 30px;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 800px) {
+    .spaced {
+        margin-top: 100px;
+    }
+}
+
+.glyphicon {
+    font-size: 30px;
+}
+
+.newquote {
+    margin-top: 10px;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:focus {
+    margin-top:10px;
+    background-color: black;
+    border: solid 3px white;
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    color: white;
+    background-color: black;
+    margin-bottom: 0;
+}
